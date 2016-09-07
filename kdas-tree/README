@@ -1,0 +1,7 @@
+### To build
+
+$ sudo docker build -t kushaldas/kdas-tree .
+
+### To run
+
+$ sudo docker run -d -p 8001:80 -v /mnt:/mnt:z --name httpd kushaldas/kdas-tree
