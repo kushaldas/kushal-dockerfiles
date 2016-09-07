@@ -1,0 +1,4 @@
+### To run
+
+$ sudo docker run -d --name ocompose -v /mnt:/mnt:z kushaldas/ostreecompose
+
