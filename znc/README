@@ -1,0 +1,7 @@
+### To create initial config
+
+Start the container with bash, and then $ znc --makeconf
+
+### To run
+
+$ sudo docker run -d --name znc -p 8001:6667 -v /home/kdas/znc:/home/fedora/.znc kushaldas/znc
